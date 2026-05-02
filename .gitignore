@@ -140,3 +140,5 @@ mgcxx/lib/
 mgcxx/src/
 mgcxx/text_search/target/
 mgcxx/tmp/
+
+.toolchain

@@ -230,7 +230,7 @@ else
 fi
 
 # install conan dependencies
-MG_TOOLCHAIN_ROOT="/opt/toolchain-v7" conan install "${CONAN_INSTALL_ARGS[@]}"
+MG_TOOLCHAIN_ROOT=${MG_TOOLCHAIN_ROOT:-"/opt/toolchain-v7"} conan install "${CONAN_INSTALL_ARGS[@]}"
 
 source build/generators/conanbuild.sh
 
